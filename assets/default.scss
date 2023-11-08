@@ -1,37 +1,4 @@
-body {
-    color: #0F0;
-}
 
-li {
-    list-style: none;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.header h1 {
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-left: 13px;
-}
-
-.header ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header ul li {
-    margin-right: 13px;
-}
-
-.header ul li a {
-    font-size: 1.2rem;
-}
 
 
 // Navbar
