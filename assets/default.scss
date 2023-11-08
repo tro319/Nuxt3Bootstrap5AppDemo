@@ -36,11 +36,17 @@ li {
 
 // Navbar
 
+.navbar .down-menu-background {
+    border: none;
+    background-color: #808080;
+}
+
 .navbar .move-link {
     position: relative;
     left: 0;
+    color: #FFF;
     transition: 0.5s;
-    background-color: rgb(255, 255, 255, 1);
+    border-radius: 5px;
 }
 
 .navbar .move-link:hover {

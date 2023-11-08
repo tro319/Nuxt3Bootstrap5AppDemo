@@ -11,7 +11,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             baseball
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu down-menu-background">
             <li><a class="dropdown-item move-link" href="#">高校野球</a></li>
             <li><a class="dropdown-item move-link" href="#">社会人野球</a></li>
           </ul>
@@ -20,7 +20,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             volleyball
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu down-menu-background">
             <li><a class="dropdown-item move-link" href="#">Vリーグ</a></li>
           </ul>
         </li>
@@ -28,7 +28,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             soccer
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu down-menu-background">
             <li><a class="dropdown-item move-link" href="#">高校サッカー</a></li>
           </ul>
         </li>
@@ -36,7 +36,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             track&field
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu down-menu-background">
             <li><a class="dropdown-item move-link" href="#">京陸競技会</a></li>
           </ul>
         </li>
