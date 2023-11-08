@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
-    <h1>こんにちは、日本</h1>
+  <div>
+    <h1>Shotaro photo baseball</h1>
+    <NuxtLink to="/">Home</NuxtLink>
   </div>
 </template>

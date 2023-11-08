@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
-    <h1>hello world!</h1>
+  <div>
+    <h1>Shotaro photo</h1>
+    <NuxtLink to="/index2">baseball</NuxtLink>
   </div>
 </template>

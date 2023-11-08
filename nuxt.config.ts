@@ -22,6 +22,7 @@ export default defineNuxtConfig({
         'nuxt-icon'
     ],
     css: [
-        "bootstrap/scss/bootstrap.scss"
-    ]
+        "bootstrap/scss/bootstrap.scss",
+        "assets/default.scss"
+    ],
 })
