@@ -1,7 +1,7 @@
 
 
 
-//index.vue Header
+//pages Header
 
 #header-top {
     padding: 10px;
@@ -12,6 +12,12 @@
     font-size: 2rem;
     margin-left: 3px;
 }
+
+#header-top h1 .home-link {
+    color: #000;
+    text-decoration: none;
+}
+
 
 // Navbar.vue HeaderNavbar
 

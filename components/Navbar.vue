@@ -13,8 +13,8 @@
             baseball
           </a>
           <ul class="dropdown-menu down-menu-background">
-            <li><a class="dropdown-item move-link" href="#">高校野球</a></li>
-            <li><a class="dropdown-item move-link" href="#">社会人野球</a></li>
+            <li><NuxtLink class="dropdown-item move-link" to="/koukouyakyuu">高校野球</NuxtLink></li>
+            <li><NuxtLink class="dropdown-item move-link" to="#">社会人野球</NuxtLink></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -22,7 +22,7 @@
             volleyball
           </a>
           <ul class="dropdown-menu down-menu-background">
-            <li><a class="dropdown-item move-link" href="#">Vリーグ</a></li>
+            <li><NuxtLink class="dropdown-item move-link" to="#">Vリーグ</NuxtLink></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -30,7 +30,7 @@
             soccer
           </a>
           <ul class="dropdown-menu down-menu-background">
-            <li><a class="dropdown-item move-link" href="#">高校サッカー</a></li>
+            <li><NuxtLink class="dropdown-item move-link" to="#">高校サッカー</NuxtLink></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -38,7 +38,7 @@
             track&field
           </a>
           <ul class="dropdown-menu down-menu-background">
-            <li><a class="dropdown-item move-link" href="#">京陸競技会</a></li>
+            <li><NuxtLink class="dropdown-item move-link" to="#">京陸競技会</NuxtLink></li>
           </ul>
         </li>
       </ul>
