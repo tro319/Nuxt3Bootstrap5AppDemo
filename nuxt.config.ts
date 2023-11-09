@@ -24,6 +24,6 @@ export default defineNuxtConfig({
     ],
     css: [
         "bootstrap/scss/bootstrap.scss",
-        "assets/default.scss"
+        "assets/scss/default.scss"
     ],
 })
