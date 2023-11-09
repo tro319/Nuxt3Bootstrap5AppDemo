@@ -47,3 +47,36 @@
     color: #888;
     background-color: rgba(39, 132, 255);
 }
+
+
+// index.vue main
+
+img {
+    max-width: 100%
+}
+
+#main {
+    background-image: url("../images/background-pc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600vh;
+    text-align: center;
+}
+
+#main h2 {
+    font-size: 1.3rem;
+    padding: 30px;
+    margin-bottom: 200px;
+}
+
+#main .img1 {
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 770px) {
+    #main {
+        background-image: url("../images/background-ph.jpg");
+    }
+}

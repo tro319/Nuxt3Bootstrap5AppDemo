@@ -1,2 +1,8 @@
 <template>
+    <div id="main">
+        <h2>最近の観戦記録↓</h2>
+        <div class="img1">
+            <img src="../assets/images/1.jpg">
+        </div>
+    </div>
 </template>
