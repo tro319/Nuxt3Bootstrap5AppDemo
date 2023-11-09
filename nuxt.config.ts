@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     app: {
         // baseURL: '/Nuxt3Bootstrap5AppDemo/', // baseURL: '/<repository>/'
         head: {
-            title: 'Shotaro Photo',
+            title: 'Shotaro sports Photo',
             meta: [
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ],
