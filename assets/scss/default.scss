@@ -1,5 +1,10 @@
 
+//header
 
+#header {
+    position: sticky;
+    top: 0;
+}
 
 //AppHeader.vue Header
 
@@ -70,9 +75,43 @@ img {
     margin-bottom: 200px;
 }
 
-#main .img1 {
+#main .img {
     margin-bottom: 60px;
 }
+
+/*
+// index.vue main scroll-in
+
+#main #kansen1 .img-wrap {
+    position: relative;
+    top: 40%;
+    height: 40%;
+    width: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+#main #kansen1 .img-wrap .active {
+    width: 40vw;
+    opacity: 1;
+    transition: opacity 0.8s, width 1.3s;
+}
+
+#main #kansen1 .img-wrap .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.6);
+}
+
+#main #kansen1 .img-wrap .active > .img {
+    transform: scale(1);
+    transition: 1s ease-out;
+} */
 
 
 @media screen and (max-width: 770px) {
