@@ -1,5 +1,5 @@
 <template>
-  <div class="contents">
+  <div class="contents animate__animated animate__fadeIn">
   <div class="contents-title">
     <h2>Chander</h2>
   </div>

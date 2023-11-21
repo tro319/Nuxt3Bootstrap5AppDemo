@@ -21,7 +21,7 @@
               ラーメン
             </a>
             <ul class="dropdown-menu down-menu-background">
-              <li><NuxtLink class="dropdown-item move-link" to="#">肥後もっこす</NuxtLink></li>
+              <li><NuxtLink class="dropdown-item move-link" to="/pagesin/mokkosu">肥後もっこす</NuxtLink></li>
             </ul>
           </li>
         </ul>
