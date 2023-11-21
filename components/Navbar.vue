@@ -10,34 +10,18 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              carry
+              カレー
             </a>
             <ul class="dropdown-menu down-menu-background">
-              <li><NuxtLink class="dropdown-item move-link" to="/koukouyakyuu"></NuxtLink></li>
+              <li><NuxtLink class="dropdown-item move-link" to="/pagesin/chander">chander</NuxtLink></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              volleyball
+              ラーメン
             </a>
             <ul class="dropdown-menu down-menu-background">
-              <li><NuxtLink class="dropdown-item move-link" to="#">Vリーグ</NuxtLink></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              soccer
-            </a>
-            <ul class="dropdown-menu down-menu-background">
-              <li><NuxtLink class="dropdown-item move-link" to="#">高校サッカー</NuxtLink></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              track&field
-            </a>
-            <ul class="dropdown-menu down-menu-background">
-              <li><NuxtLink class="dropdown-item move-link" to="#">京陸競技会</NuxtLink></li>
+              <li><NuxtLink class="dropdown-item move-link" to="#">肥後もっこす</NuxtLink></li>
             </ul>
           </li>
         </ul>
