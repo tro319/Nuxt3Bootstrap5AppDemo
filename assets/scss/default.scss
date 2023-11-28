@@ -1,4 +1,13 @@
 
+
+
+ul {
+    list-style: none;
+}
+
+
+
+
 //header
 
 #header {
@@ -27,32 +36,33 @@
 
 // Navbar.vue HeaderNavbar
 
-.navbar .down-menu-background {
-    border: none;
-    background-color: #808080;
+nav .shop-list {
+    padding-top: 50px;
+    flex-direction: column;
+    padding-right: 40px;
+    text-align: right;
 }
 
-.navbar .move-link {
-    position: relative;
-    left: 0;
-    color: #FFF;
-    transition: 0.5s;
-    border-radius: 5px;
+nav .shop-list li:first-child {
+    margin-top: 100px;
 }
 
-.navbar .move-link:hover {
-    position: relative;
-    left: -10px;
-    color: #FFF;
-    background-color: rgb(39, 132, 255);
+nav .shop-list li {
+    margin-bottom: 100px;
+}
+  
+/*nav .shop-list li .shousai {
+    display: none;
 }
 
-.navbar .move-link:active {
-    position: relative;
-    left: -10px;
-    color: #888;
-    background-color: rgba(39, 132, 255);
+nav .shop-list li:hover .shousai {
+    display: block;
+    transition: 1.2s;
 }
+
+nav .shop-list li:active .shousai {
+    display: block;
+} */
 
 
 // pagesin/chander.vue main
