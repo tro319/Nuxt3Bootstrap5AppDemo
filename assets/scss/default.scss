@@ -1,8 +1,15 @@
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -14,23 +21,64 @@ ul {
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: skyblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 //AppHeader.vue Header
 
-#header-top {
-    padding: 10px;
-    background-color: #b0c4de;
+#header h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
-#header-top h1 {
-    font-size: 2rem;
-    margin-left: 3px;
-}
-
-#header-top h1 .home-link {
+#header h1 a {
     color: #000;
-    text-decoration: none;
+}
+
+#header .shop-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .shop-list li {
+    margin-left: 13px;
+}
+
+#header .shop-list li .short-info {
+    display: none;
+}
+
+#header .shop-list li:active .short-info {
+    display: block;
+    animation-name: fadeshowAnime;
+    animation-duration: 7s;
+    opacity: 0;
+    transition: 7s;
+}
+
+@keyframes fadeshowAnime {
+    from {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+.o-about {
+    margin-top: 2000px;
 }
 
 
