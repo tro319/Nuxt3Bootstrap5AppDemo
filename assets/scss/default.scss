@@ -25,7 +25,7 @@ img {
     top: 0;
     z-index: 3;
     background-color: skyblue;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +53,18 @@ img {
 }
 
 #header .shop-list li a {
+    padding: 10px;
+    background: linear-gradient(135deg, rgb(0, 255, 200, 0.7),rgb(255, 255, 255, 0.3));
+    border-radius: 4px;
     color: #000;
+}
+
+#header .shop-list li a:hover {
+    background: linear-gradient(90deg, rgb(255, 255, 255, 0.3), rgb(0, 255, 200, 0.7));
+}
+
+#header .shop-list li a:active {
+    background: linear-gradient(135deg, rgb(255, 255, 255, 0.3), rgb(255, 0, 0, 0.7));
 }
 
 #header .shop-list li .short-info {
@@ -150,21 +161,14 @@ nav .shop-list li:active .shousai {
     margin: 60px auto;
 }
 
-.contents .link-top {
-    position: sticky;
-    top: 120px;
-    background-color: #add8e6;
-    border-radius: 7px;
-}
-
-.contents .link-top .contents-title {
+.contents .contents-title {
     padding: 10px;
     font-weight: 800;
     text-indent: 1rem;
     margin-bottom: 10px;
 }
 
-.contents .link-top .sub-title {
+.contents .sub-title {
     font-weight: 600;
     display: inline-block;
     margin-left: 50px;
@@ -173,38 +177,43 @@ nav .shop-list li:active .shousai {
     margin-bottom: 10px;
 }
 
-.contents .link-top .list {
+.contents .list {
     display: flex;
     background-color: #ddd;
     padding-left: 10px;
+    margin-left: 20px;
     border-radius: 7px;
     margin-bottom: 15px;
+    position: sticky;
+    top: 70px;
 }
 
-.contents .link-top .list li {
+.contents .list li {
     margin: 8px 0;
 }
 
-.contents .link-top .list li:first-child {
+.contents .list li:first-child {
     margin-left: 4px;
     border-right: solid 2px #999;
 }
 
-.contents .link-top .list li a {
+.contents .list li a {
     display: inline-block;
     color: #000;
     padding: 13px;
     border-radius: 5px;
 }
 
-.contents .link-top .list li a:hover {
+.contents .list li a:hover {
     background-color: rgb(32, 173, 255, 0.7);
     color: #FFF;
+    transition: all 0.5s;
 }
 
-.contents .link-top .list li a:active {
-    background-color: rgb(32, 173, 255, 0.7);
-    color: #ddd;
+.contents .list li a:active {
+    background-color: rgb(255, 255, 0, 0.7);
+    color: #000;
+    transition: all 0.5s;
 }
 
 .contents .img {
