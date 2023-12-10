@@ -1,5 +1,5 @@
 <template>
-<div class="o-about animate__animated animate__backInUp">
+<div class="o-about">
     <div class="about" ref="targetAbout">
         <h2 class="title">IntersectionObserverってなあに？</h2>
         <p class="description">

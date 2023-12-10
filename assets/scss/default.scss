@@ -12,6 +12,9 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
 
 
 
@@ -49,6 +52,10 @@ a {
     margin-left: 13px;
 }
 
+#header .shop-list li a {
+    color: #000;
+}
+
 #header .shop-list li .short-info {
     display: none;
 }
@@ -78,7 +85,24 @@ a {
 
 
 .o-about {
-    margin-top: 2000px;
+    margin-top: 1500px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.o-about {
+    &.-intersecting {
+        animation: fadeIn 0.5s ease-in-out both;
+    }
 }
 
 
@@ -120,8 +144,75 @@ nav .shop-list li:active .shousai {
 
 // pagesin/chander.vue main
 
+
 .contents {
-    max-width: 800px;
+    padding: 0 20px;
+    margin: 60px auto;
+}
+
+.contents .link-top {
+    position: sticky;
+    top: 120px;
+    background-color: #add8e6;
+    border-radius: 7px;
+}
+
+.contents .link-top .contents-title {
     padding: 10px;
-    margin: 0 auto;
+    font-weight: 800;
+    text-indent: 1rem;
+    margin-bottom: 10px;
+}
+
+.contents .link-top .sub-title {
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 4px;
+    border-bottom: solid 1px #000;
+    margin-bottom: 10px;
+}
+
+.contents .link-top .list {
+    display: flex;
+    background-color: #ddd;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.contents .link-top .list li {
+    margin: 8px 0;
+}
+
+.contents .link-top .list li:first-child {
+    margin-left: 4px;
+    border-right: solid 2px #999;
+}
+
+.contents .link-top .list li a {
+    display: inline-block;
+    color: #000;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.contents .link-top .list li a:hover {
+    background-color: rgb(32, 173, 255, 0.7);
+    color: #FFF;
+}
+
+.contents .link-top .list li a:active {
+    background-color: rgb(32, 173, 255, 0.7);
+    color: #ddd;
+}
+
+.contents .img {
+    width: 80%;
+    margin: 0 auto 60px auto;
+}
+
+.contents .img img {
+    border-radius: 25px;
+    box-shadow: -3px -3px 5px #999;
 }
