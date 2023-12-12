@@ -4,7 +4,7 @@
     <h2>肥後もっこす</h2>
   </div>
   <div class="sub-title">
-    <h3>北山駅でてすぐのラーメン屋!</h3>
+    <h3>北山駅でてすぐの、ラーメン屋!</h3>
   </div>
   <ul class="list">
     <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
