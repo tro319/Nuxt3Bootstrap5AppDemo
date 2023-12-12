@@ -54,17 +54,19 @@ img {
 
 #header .shop-list li a {
     padding: 10px;
-    background: linear-gradient(135deg, rgb(0, 255, 200, 0.7),rgb(255, 255, 255, 0.3));
-    border-radius: 4px;
+    background: linear-gradient(135deg, rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0));
     color: #000;
+    border-radius: 4px;
 }
 
 #header .shop-list li a:hover {
-    background: linear-gradient(90deg, rgb(255, 255, 255, 0.3), rgb(0, 255, 200, 0.7));
+    background: linear-gradient(135deg, rgb(0, 0, 0, 0.7), rgb(255, 255, 255, 0));
+    color: #FFF;
 }
 
 #header .shop-list li a:active {
-    background: linear-gradient(135deg, rgb(255, 255, 255, 0.3), rgb(255, 0, 0, 0.7));
+    background: linear-gradient(135deg, rgba(150, 138, 138, 0.7), rgb(255, 255, 255, 0));
+    color: #FFF;
 }
 
 #header .shop-list li .short-info {
