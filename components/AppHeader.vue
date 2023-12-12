@@ -1,6 +1,6 @@
 <template>
  <div id="header">
-    <h1><NuxtLink class="home-link" to="/">Shotaro</NuxtLink></h1>
+    <h1><NuxtLink class="home-link" to="/">上賀茂飲食店巡り</NuxtLink></h1>
     <div id="nav">
 <ul class="shop-list">
 <li><NuxtLink to="/pagesin/ri-bon">リーボン</NuxtLink></li>
