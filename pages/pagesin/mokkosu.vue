@@ -1,7 +1,7 @@
 <template>
   <div class="contents animate__animated animate__fadeIn">
   <div class="contents-title">
-    <h2>肥後もっこす</h2>
+    <h2>熊本ラーメン 肥後もっこす</h2>
   </div>
   <div class="sub-title">
     <h3>北山駅でてすぐの、ラーメン屋!</h3>
@@ -13,9 +13,8 @@
   <div class="img">
   </div>
   <div id="imformation">
-    肥後もっこす<br>
-    ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>あ
-    <br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>あ
+    <h3>熊本ラーメン肥後もっこす</h3>
+    <p>北山駅をでてすぐのところにある、ラーメン店。チャーシューが特においしいお店です。</p>
   </div>
   </div>
 </template>

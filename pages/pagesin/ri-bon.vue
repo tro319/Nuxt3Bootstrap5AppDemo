@@ -13,9 +13,8 @@
   <div class="img">
   </div>
   <div id="imformation">
-    一膳飯屋 りぃぼん<br>
-    ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>あ
-    <br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>ああ<br>あ
+    <h3>一膳飯屋りぃぼん</h3>
+    <p>上賀茂神社近くの、日本式洋食レストラン。鶏肉や豚肉を使った料理や、ソースが選べるハンバーグが楽しめます。</p>
   </div>
   </div>
 </template>
