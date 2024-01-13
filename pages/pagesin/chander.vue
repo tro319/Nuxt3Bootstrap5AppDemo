@@ -11,7 +11,7 @@
     <li><NuxtLink to="#menu">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
-    <img src="../../public/1.jpg">
+    <img src="../../public/chander/1.jpg" alt="Chander・北山店">
   </div>
   <div id="imformation">
     <h3>Chander 京都北山店</h3>
