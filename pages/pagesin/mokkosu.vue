@@ -16,6 +16,42 @@
   <div id="imformation">
     <h3>熊本ラーメン肥後もっこす</h3>
     <p>京都市営地下鉄・北山駅4番出口をでて、北山通りを西に徒歩で2分くらい進んだところにあるラーメン店。チャーシューが柔らかくて、特においしいお店です。</p>
+     <b-table>
+           <b-thead>
+      <b-tr>
+        <b-th scope="col">
+          営業時間(昼)
+        </b-th>
+        <b-th scope="col">
+          営業時間(夜)
+        </b-th>
+        <b-th scope="col">
+          定休日
+        </b-th>
+        <b-th scope="col">
+          イートイン
+        </b-th>
+        <b-th scope="col">
+          宅配
+        </b-th>
+      </b-tr>
+    </b-thead>
+     <b-tbody>
+      <b-tr>
+        <b-th scope="row">
+          11:30~<br>
+          14:30
+        </b-th>
+        <b-th scope="row">
+          18:00~<br>
+          22:00
+        </b-th>
+        <b-td>月曜日</b-td>
+        <b-td>○</b-td>
+        <b-td>×</b-td>
+      </b-tr>
+      </b-tbody>
+        </b-table>
   </div>
 
   <div id="menu">
