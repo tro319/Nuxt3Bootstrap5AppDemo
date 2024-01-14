@@ -24,12 +24,37 @@ img {
     position: sticky;
     top: 0;
     z-index: 3;
-    background-color: skyblue;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
+
+#header .navbar {
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(129, 179, 255), rgb(215, 231, 255));
+}
+
+#header .navbar .navbar-nav {
+    padding-left: 20px;
+}
+
+#header .navbar .navbar-nav li {
+    margin-left: 15px;
+}
+
+#header .navbar .navbar-nav li a {
+    border-radius: 7px;
+    background: linear-gradient(35deg, rgba(245, 255, 168, 0.8), rgb(0, 0, 0, 0));
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#header .navbar .navbar-nav li a:hover {
+    background: linear-gradient(35deg, rgba(255, 200, 168, 0.8), rgb(0, 0, 0, 0));
+}
+
+#header .navbar .navbar-nav li a:active {
+    background: linear-gradient(35deg, rgba(255, 109, 128, 0.8), rgb(0, 0, 0, 0));
+}
+
 
 //AppHeader.vue Header
 
@@ -70,6 +95,30 @@ img {
     color: #FFF;
     transition: all 0.5s;
 }
+
+
+// index.vue main
+
+#main {
+    margin-bottom: 60px;
+}
+
+#main .img {
+    margin-bottom: 60px;
+}
+
+#main .img-list {
+    text-align: center;
+}
+
+#main .img-list li {
+    margin-bottom: 30px;
+}
+
+#main .img-list li img {
+    border-radius: 500px;
+}
+
 
 // AppFooter.vue Footer
 
@@ -112,6 +161,7 @@ img {
     margin-bottom: 15px;
     position: sticky;
     top: 120px;
+    z-index: 2;
 }
 
 .contents .list li {
@@ -153,6 +203,7 @@ img {
 }
 
 .contents #imformation {
+    padding-top: 170px;
     margin-bottom: 60px;
 }
 
@@ -182,9 +233,12 @@ img {
 }
 
 .contents #menu {
+    padding-top: 200px;
     margin-bottom: 60px;
 }
 
 .contents #menu h3 {
     text-indent: 1rem;
+    margin-bottom: 20px;
 }
+
