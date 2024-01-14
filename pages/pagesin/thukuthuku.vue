@@ -16,7 +16,16 @@
   <div id="imformation">
     <h3>タイ料理の店 TUKTUK</h3>
     <p>上賀茂神社から、御園橋通りを西に歩いて5分くらいのところにあるお店。タイで修行を重ねたシェフが作る、カオマンガイなどの30種のタイ料理が楽しめます。</p>
-        <b-table>
+    <div class="feelings">
+      <div class="sub-img">
+        <img src="../../public/thukuthuku/eat.jpg" alt="カオマンガイ">
+      </div>
+      <div class="text">
+        <p>店舗では、カオマンガイセット(1100円)を注文しました。カオマンガイのタレもとてもおいしく、セットでついてきた春巻きも甘辛く仕上げられていて、とてもおいしかったです。
+        </p>
+      </div>
+    </div>
+        <b-table class="info-table">
            <b-thead>
       <b-tr>
         <b-th scope="col">

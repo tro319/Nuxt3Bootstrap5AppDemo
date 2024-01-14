@@ -15,8 +15,16 @@
   </div>
   <div id="imformation">
     <h3>熊本ラーメン肥後もっこす</h3>
-    <p>京都市営地下鉄・北山駅4番出口をでて、北山通りを西に徒歩で2分くらい進んだところにあるラーメン店。チャーシューが柔らかくて、特においしいお店です。</p>
-     <b-table>
+    <p>京都市営地下鉄・北山駅4番出口をでて、北山通りを西に徒歩で2分くらい進んだところにあるラーメン店です。スープやチャーシューが美味しいお店です。</p>
+    <div class="feelings">
+      <div class="sub-img">
+        <img src="../../public/mokkosu/eat.jpg" alt="カオマンガイ">
+      </div>
+      <div class="text">
+        <p>店舗では、うま辛ラーメン(950円)を注文しました。程いい辛さでスープも、チャーシューもトロトロで柔らかくとてもおいしかったです。</p>
+      </div>
+    </div>
+     <b-table class="info-table">
            <b-thead>
       <b-tr>
         <b-th scope="col">
