@@ -1,26 +1,25 @@
 <template>
   <div class="contents animate__animated animate__fadeIn">
   <div class="contents-title">
-    <h2>熊本ラーメン 肥後もっこす</h2>
+    <h2>タイ料理専門店 TUKTUK</h2>
   </div>
   <div class="sub-title">
-    <h3>北山駅でてすぐの、ラーメン屋!</h3>
+    <h3>タイ人シェフが作る、本格タイ料理が楽しめる!</h3>
   </div>
   <ul class="list">
     <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
     <li><NuxtLink to="#menu">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
-  <img src="../../public/mokkosu/1.jpg" alt="肥後もっこす">
+    <img src="../../public/thukuthuku/1.jpg" alt="TUKTUK">
   </div>
   <div id="imformation">
-    <h3>熊本ラーメン肥後もっこす</h3>
-    <p>京都市営地下鉄・北山駅4番出口をでて少ししたところにある、ラーメン店。チャーシューが柔らかくて、特においしいお店です。</p>
+    <h3>TUKTUK</h3>
+    <p></p>
   </div>
-
   <div id="menu">
     <h3>メニュー</h3>
-     <Carousel
+    <Carousel
     control
     indicators
   >
@@ -28,26 +27,24 @@
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="../../public/mokkosu/2.jpg"
+          src="../../public/thukuthuku/2.jpg"
         />
       </CarouselItem>
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="../../public/mokkosu/3.jpg"
+          src="../../public/thukuthuku/3.jpg"
         />
       </CarouselItem>
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="../../public/mokkosu/4.jpg"
+          src="../../public/thukuthuku/4.jpg"
         />
       </CarouselItem>
     </CarouselInner>
   </Carousel>
   </div>
   </div>
-
-  
 
 </template>

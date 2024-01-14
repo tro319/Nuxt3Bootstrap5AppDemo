@@ -5,7 +5,7 @@
 <ul class="shop-list">
 <li><NuxtLink to="/pagesin/ri-bon">りぃぼん</NuxtLink></li>
 <li><NuxtLink to="/pagesin/mokkosu">肥後もっこす</NuxtLink></li>
-<li><NuxtLink to="/pagesin/chander">chander</NuxtLink></li>
+<li><NuxtLink to="/pagesin/thukuthuku">TUKTUK</NuxtLink></li>
 </ul>
 </div>
   </div>
