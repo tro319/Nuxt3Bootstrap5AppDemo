@@ -64,27 +64,31 @@
   </div>
   <div id="menu">
     <h3>メニュー</h3>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../../public/thukuthuku/2.jpg" class="d-block w-100" alt="menu1">
-    </div>
-    <div class="carousel-item">
-      <img src="../../public/thukuthuku/3.jpg" class="d-block w-100" alt="menu2">
-    </div>
-    <div class="carousel-item">
-      <img src="../../public/thukuthuku/4.jpg" class="d-block w-100" alt="menu3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+     <Carousel
+    fade
+    control
+  >
+    <CarouselInner>
+      <CarouselItem>
+        <CarouselItemImage
+          width="800"
+          src="https://source.unsplash.com/random/1920x1080?sig=1"
+        />
+      </CarouselItem>
+      <CarouselItem>
+        <CarouselItemImage
+          width="800"
+          src="https://source.unsplash.com/random/1920x1080?sig=2"
+        />
+      </CarouselItem>
+      <CarouselItem>
+        <CarouselItemImage
+          width="800"
+          src="https://source.unsplash.com/random/1920x1080?sig=3"
+        />
+      </CarouselItem>
+    </CarouselInner>
+  </Carousel>
   </div>
   </div>
 
