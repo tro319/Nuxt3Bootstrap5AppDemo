@@ -11,8 +11,8 @@
       <NavbarCollapse>
         <NavbarNavList>
           <NavItem>
-            <NavLink to="/pagesin/ri-bon">
-              りぃーぼん
+            <NavLink to="/pagesin/imaishoku">
+              今井食堂
             </NavLink>
           </NavItem>
           <NavItem>

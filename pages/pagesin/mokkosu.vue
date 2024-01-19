@@ -14,7 +14,7 @@
   <img src="../../public/mokkosu/1.jpg" alt="肥後もっこす">
   </div>
   <div id="imformation">
-    <h3>熊本ラーメン肥後もっこす</h3>
+    <h3>熊本ラーメン 肥後もっこす</h3>
     <p>京都市営地下鉄・北山駅4番出口をでて、北山通りを西に徒歩で2分くらい進んだところにあるラーメン店です。スープやチャーシューが美味しいお店です。</p>
     <div class="feelings">
       <div class="sub-img">
@@ -72,19 +72,19 @@
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="https://source.unsplash.com/random/1920x1080?sig=1"
+          src="../../public/mokkosu/2.jpg" alt="メニュー2"
         />
       </CarouselItem>
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="https://source.unsplash.com/random/1920x1080?sig=2"
+          src="../../public/mokkosu/3.jpg" alt="メニュー3"
         />
       </CarouselItem>
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="https://source.unsplash.com/random/1920x1080?sig=3"
+          src="../../public/mokkosu/4.jpg" alt="メニュー4"
         />
       </CarouselItem>
     </CarouselInner>

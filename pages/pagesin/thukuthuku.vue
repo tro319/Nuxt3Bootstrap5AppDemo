@@ -64,7 +64,7 @@
   </div>
   <div id="menu">
     <h3>メニュー</h3>
-     <Carousel
+    <Carousel
     fade
     control
   >
@@ -72,19 +72,19 @@
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="https://source.unsplash.com/random/1920x1080?sig=1"
+          src="../../public/mokkosu/2.jpg" alt="メニュー2"
         />
       </CarouselItem>
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="https://source.unsplash.com/random/1920x1080?sig=2"
+          src="../../public/thukuthuku/3.jpg" alt="メニュー3"
         />
       </CarouselItem>
       <CarouselItem>
         <CarouselItemImage
           width="800"
-          src="https://source.unsplash.com/random/1920x1080?sig=3"
+          src="../../public/thukuthuku/4.jpg" alt="メニュー4"
         />
       </CarouselItem>
     </CarouselInner>

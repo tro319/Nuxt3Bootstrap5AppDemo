@@ -1,10 +1,10 @@
 <template>
   <div class="contents animate__animated animate__fadeIn">
   <div class="contents-title">
-    <h2>一膳飯屋 りぃぼん</h2>
+    <h2>今井食堂</h2>
   </div>
   <div class="sub-title">
-    <h3>上賀茂神社近くの、日本式洋食レストラン!</h3>
+    <h3>鯖煮が美味しい、食堂!</h3>
   </div>
   <ul class="list">
     <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
@@ -13,8 +13,8 @@
   <div class="img">
   </div>
   <div id="imformation">
-    <h3>一膳飯屋りぃぼん</h3>
-    <p>上賀茂神社近くの、日本式洋食レストラン。鶏肉や豚肉を使った料理や、ソースが選べるハンバーグが楽しめます。</p>
+    <h3>今井食堂</h3>
+    <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
   </div>
   </div>
 </template>
