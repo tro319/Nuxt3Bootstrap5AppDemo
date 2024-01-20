@@ -86,6 +86,8 @@
       </CarouselItem>
     </CarouselInner>
   </Carousel>
+  <p>メニュー詳細はこちらから→<a href="https://www.instagram.com/taifood_tuk_tuk/">TUKTUKインスタグラムアカウント</a>
+  </p>
   </div>
   </div>
 
