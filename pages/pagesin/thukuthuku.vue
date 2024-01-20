@@ -70,21 +70,18 @@
   >
     <CarouselInner>
       <CarouselItem>
-        <CarouselItemImage
-          width="800"
-          src="../../public/mokkosu/2.jpg" alt="メニュー2"
+        <img
+          src="../../public/mokkosu/2.jpg" alt="メニュー1"
         />
       </CarouselItem>
       <CarouselItem>
-        <CarouselItemImage
-          width="800"
-          src="../../public/thukuthuku/3.jpg" alt="メニュー3"
+        <img
+          src="../../public/thukuthuku/3.jpg" alt="メニュー2"
         />
       </CarouselItem>
       <CarouselItem>
-        <CarouselItemImage
-          width="800"
-          src="../../public/thukuthuku/4.jpg" alt="メニュー4"
+        <img
+          src="../../public/thukuthuku/4.jpg" alt="メニュー3"
         />
       </CarouselItem>
     </CarouselInner>

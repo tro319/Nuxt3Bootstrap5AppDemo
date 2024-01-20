@@ -4,7 +4,7 @@
     <h2>今井食堂</h2>
   </div>
   <div class="sub-title">
-    <h3>鯖煮が美味しい、食堂!</h3>
+    <h3>鯖の味噌煮が美味しい、食堂!</h3>
   </div>
   <ul class="list">
     <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
@@ -15,13 +15,13 @@
   </div>
   <div id="imformation">
     <h3>今井食堂</h3>
-    <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
+    <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖の味噌煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
     <div class="feelings">
       <div class="sub-img">
         <img src="../../public/imaishoku/eat.jpg" alt="おすすめ定食">
       </div>
       <div class="text">
-        <p>店舗ではおすすめ定食(850円)を注文しました。鯖煮は骨を気にせず食べれて、ご飯と一緒に食べてもとても良くおいしかったです。
+        <p>店舗ではおすすめ定食(850円)を注文しました。鯖の味噌煮は骨を気にせず食べれて、味噌も甘すぎず辛すぎずご飯と一緒に食べてもとても良くおいしかったです。
           チキンカツやコロッケも、衣がとてもさくさくしていておいしかったです。
         </p>
         <div class="sub-img2">
@@ -69,21 +69,18 @@
   >
     <CarouselInner>
       <CarouselItem>
-        <CarouselItemImage
-          width="800"
-          src="../../public/imaishoku/3.jpg" alt="メニュー2"
+        <img
+          src="../../public/imaishoku/3.jpg" alt="メニュー1"
         />
       </CarouselItem>
       <CarouselItem>
-        <CarouselItemImage
-          width="800"
-          src="../../public/imaishoku/4.jpg" alt="メニュー3"
+        <img
+          src="../../public/imaishoku/4.jpg" alt="メニュー2"
         />
       </CarouselItem>
       <CarouselItem>
-        <CarouselItemImage
-          width="800"
-          src="../../public/imaishoku/5.jpg" alt="メニュー4"
+        <img
+          src="../../public/imaishoku/5.jpg" alt="メニュー3"
         />
       </CarouselItem>
     </CarouselInner>
