@@ -71,7 +71,7 @@
     <CarouselInner>
       <CarouselItem>
         <img
-          src="../../public/mokkosu/2.jpg" alt="メニュー1"
+          src="../../public/thukuthuku/2.jpg" alt="メニュー1"
         />
       </CarouselItem>
       <CarouselItem>
