@@ -54,7 +54,7 @@
           18:00~<br>
           22:00
         </b-th>
-        <b-td>月曜日</b-td>
+        <b-td>不定休</b-td>
         <b-td>○</b-td>
         <b-td>×</b-td>
       </b-tr>

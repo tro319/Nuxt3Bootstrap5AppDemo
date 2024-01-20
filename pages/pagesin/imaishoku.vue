@@ -11,10 +11,83 @@
     <li><NuxtLink to="#menu">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
+    <img src="../../public/imaishoku/1.jpg" alt="今井食堂">
   </div>
   <div id="imformation">
     <h3>今井食堂</h3>
     <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
+    <div class="feelings">
+      <div class="sub-img">
+        <img src="../../public/imaishoku/eat.jpg" alt="おすすめ定食">
+      </div>
+      <div class="text">
+        <p>店舗ではおすすめ定食(850円)を注文しました。鯖煮は骨を気にせず食べれて、ご飯と一緒に食べてもとても良くおいしかったです。
+          チキンカツやコロッケも、衣がとてもさくさくしていておいしかったです。
+        </p>
+        <div class="sub-img2">
+          <img src="../../public/imaishoku/2.jpg" alt="おすすめ定食">
+        </div>
+        <p>プロ野球選手が来店されたこともあるお店で、プロ野球好きな人は一度いってみてもいいかもしれません。</p>
+      </div>
+    </div>
+     <b-table class="info-table">
+           <b-thead>
+      <b-tr>
+        <b-th scope="col">
+          営業時間
+        </b-th>
+        <b-th scope="col">
+          定休日
+        </b-th>
+        <b-th scope="col">
+          イートイン
+        </b-th>
+        <b-th scope="col">
+          テイクアウト
+        </b-th>
+      </b-tr>
+    </b-thead>
+     <b-tbody>
+      <b-tr>
+        <b-th scope="row">
+          11:00~<br>
+          14:00
+        </b-th>
+        <b-td>水曜日<br>(休日は弁当販売のみ)</b-td>
+        <b-td>○</b-td>
+        <b-td>○</b-td>
+      </b-tr>
+      </b-tbody>
+        </b-table>
+  </div>
+
+  <div id="menu">
+    <h3>メニュー</h3>
+    <Carousel
+    fade
+    control
+  >
+    <CarouselInner>
+      <CarouselItem>
+        <CarouselItemImage
+          width="800"
+          src="../../public/imaishoku/3.jpg" alt="メニュー2"
+        />
+      </CarouselItem>
+      <CarouselItem>
+        <CarouselItemImage
+          width="800"
+          src="../../public/imaishoku/4.jpg" alt="メニュー3"
+        />
+      </CarouselItem>
+      <CarouselItem>
+        <CarouselItemImage
+          width="800"
+          src="../../public/imaishoku/5.jpg" alt="メニュー4"
+        />
+      </CarouselItem>
+    </CarouselInner>
+  </Carousel>
   </div>
   </div>
 </template>
