@@ -55,7 +55,7 @@
           11:00~<br>
           翌1:00
         </b-th>
-        <b-td>なし</b-td>
+        <b-td>月曜日</b-td>
         <b-td>○</b-td>
         <b-td>○</b-td>
       </b-tr>
