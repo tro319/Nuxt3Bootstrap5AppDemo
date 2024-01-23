@@ -1,14 +1,14 @@
 <template>
-  <div class="contents animate__animated animate__fadeIn">
-  <div class="contents-title">
+  <div class="contents animate__animated animate__fadeIn my-6 p-3">
+  <div class="contents-title mb-2 p-1 ms-4 mb-3">
     <h2>タイ料理の店 TUKTUK</h2>
   </div>
-  <div class="sub-title">
+  <div class="sub-title mb-2 ms-5 p-2">
     <h3>タイ人シェフが作る、本格タイ料理が楽しめる!</h3>
   </div>
-  <ul class="list list-unstyled">
-    <li class="ms-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
-    <li class="ms-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
+  <ul class="list list-unstyled ms-3 mb-3 ps-1">
+    <li class="m-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
+    <li class="m-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
     <img src="../../public/thukuthuku/1.jpg" alt="TUKTUK" class="shadow-lg">
@@ -63,7 +63,7 @@
         </b-table>
   </div>
   <div id="menu">
-    <h3>メニュー</h3>
+    <h3 class="mb-5">メニュー</h3>
     <Carousel
     fade
     control
