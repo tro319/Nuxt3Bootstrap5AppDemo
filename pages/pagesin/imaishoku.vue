@@ -14,23 +14,23 @@
     <img src="../../public/imaishoku/1.jpg" alt="今井食堂" class="shadow-lg">
   </div>
   <div id="imformation" class="mb-5 pt-5">
-    <h3>今井食堂</h3>
-    <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖の味噌煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
+    <h3 class="ms-5 my-4">今井食堂</h3>
+    <p class="ms-5 my-4 p-2">上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖の味噌煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
     <div class="feelings">
-      <div class="sub-img">
+      <div class="sub-img m-auto mb-5">
         <img src="../../public/imaishoku/eat.jpg" alt="おすすめ定食" class="shadow-lg">
       </div>
-      <div class="text">
+      <div class="text ms-5 my-4 p-2">
         <p>店舗ではおすすめ定食(850円)を注文しました。鯖の味噌煮は骨を気にせず食べれて、味噌も甘すぎず辛すぎずご飯と一緒に食べてもとても良くおいしかったです。
           チキンカツやコロッケも、衣がとてもさくさくしていておいしかったです。
         </p>
-        <div class="sub-img2">
+        <div class="sub-img2 m-auto mb-5">
           <img src="../../public/imaishoku/2.jpg" alt="おすすめ定食" class="shadow-lg">
         </div>
-        <p>プロ野球選手が来店されたこともあるお店で、プロ野球好きな人は一度いってみてもいいかもしれません。</p>
+        <p class="my-4 p-2">プロ野球選手が来店されたこともあるお店で、プロ野球好きな人は一度いってみてもいいかもしれません。</p>
       </div>
     </div>
-     <b-table class="info-table">
+     <b-table class="info-table m-auto mb-5">
            <b-thead>
       <b-tr>
         <b-th scope="col">
@@ -62,7 +62,7 @@
   </div>
 
   <div id="menu" class="mb-5 pt-5">
-    <h3 class="mb-5">メニュー</h3>
+    <h3 class="mb-5 ms-5">メニュー</h3>
     <Carousel
     fade
     control
@@ -70,17 +70,17 @@
     <CarouselInner>
       <CarouselItem>
         <img
-          src="../../public/imaishoku/3.jpg" alt="メニュー1"
+          src="../../public/imaishoku/3.jpg" alt="メニュー1" class="mb-5 m-auto"
         />
       </CarouselItem>
       <CarouselItem>
         <img
-          src="../../public/imaishoku/4.jpg" alt="メニュー2"
+          src="../../public/imaishoku/4.jpg" alt="メニュー2" class="mb-5 m-auto"
         />
       </CarouselItem>
       <CarouselItem>
         <img
-          src="../../public/imaishoku/5.jpg" alt="メニュー3"
+          src="../../public/imaishoku/5.jpg" alt="メニュー3" class="mb-5 m-auto"
         />
       </CarouselItem>
     </CarouselInner>

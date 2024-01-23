@@ -14,18 +14,18 @@
     <img src="../../public/thukuthuku/1.jpg" alt="TUKTUK" class="shadow-lg">
   </div>
   <div id="imformation" class="mb-5 pt-5">
-    <h3>タイ料理の店 TUKTUK</h3>
-    <p>上賀茂神社から、御園橋通りを西に歩いて5分くらいのところにあるお店。タイで修行を重ねたシェフが作る、カオマンガイなどの30種のタイ料理が楽しめます。</p>
+    <h3 class="ms-5 my-4">タイ料理の店 TUKTUK</h3>
+    <p class="ms-5 my-4 p-2">上賀茂神社から、御園橋通りを西に歩いて5分くらいのところにあるお店。タイで修行を重ねたシェフが作る、カオマンガイなどの30種のタイ料理が楽しめます。</p>
     <div class="feelings">
-      <div class="sub-img">
+      <div class="sub-img m-auto mb-5">
         <img src="../../public/thukuthuku/eat.jpg" alt="カオマンガイ" class="shadow-lg">
       </div>
-      <div class="text">
+      <div class="text ms-5 my-4 p-2">
         <p>店舗では、カオマンガイセット(1100円)を注文しました。カオマンガイのタレもとてもおいしく、セットでついてきた春巻きも甘辛く仕上げられていて、とてもおいしかったです。
         </p>
       </div>
     </div>
-        <b-table class="info-table">
+        <b-table class="info-table m-auto mb-5">
            <b-thead>
       <b-tr>
         <b-th scope="col">
@@ -63,7 +63,7 @@
         </b-table>
   </div>
   <div id="menu" class="mb-5 pt-5">
-    <h3 class="mb-5">メニュー</h3>
+    <h3 class="mb-5 ms-5">メニュー</h3>
     <Carousel
     fade
     control
@@ -71,22 +71,22 @@
     <CarouselInner>
       <CarouselItem>
         <img
-          src="../../public/thukuthuku/2.jpg" alt="メニュー1"
+          src="../../public/thukuthuku/2.jpg" alt="メニュー1" class="mb-5 m-auto"
         />
       </CarouselItem>
       <CarouselItem>
         <img
-          src="../../public/thukuthuku/3.jpg" alt="メニュー2"
+          src="../../public/thukuthuku/3.jpg" alt="メニュー2" class="mb-5 m-auto"
         />
       </CarouselItem>
       <CarouselItem>
         <img
-          src="../../public/thukuthuku/4.jpg" alt="メニュー3"
+          src="../../public/thukuthuku/4.jpg" alt="メニュー3" class="mb-5 m-auto"
         />
       </CarouselItem>
     </CarouselInner>
   </Carousel>
-  <p>メニュー詳細はこちらから→<a href="https://www.instagram.com/taifood_tuk_tuk/">TUKTUKインスタグラムアカウント</a>
+  <p class="ms-5 mb-3">メニュー詳細はこちらから→<a href="https://www.instagram.com/taifood_tuk_tuk/">TUKTUKインスタグラムアカウント</a>
   </p>
   </div>
   </div>
