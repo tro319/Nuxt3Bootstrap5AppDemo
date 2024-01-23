@@ -10,10 +10,10 @@
     <li class="m-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
     <li class="m-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
-  <div class="img">
+  <div class="img m-auto mb-5">
   <img src="../../public/mokkosu/1.jpg" alt="肥後もっこす" class="shadow-lg">
   </div>
-  <div id="imformation">
+  <div id="imformation" class="mb-5 pt-5">
     <h3>熊本ラーメン 肥後もっこす</h3>
     <p>京都市営地下鉄・北山駅4番出口をでて、北山通りを西に徒歩で2分くらい進んだところにあるラーメン店です。スープやチャーシューが美味しいお店です。</p>
     <div class="feelings">
@@ -62,7 +62,7 @@
         </b-table>
   </div>
 
-  <div id="menu">
+  <div id="menu" class="mb-5 pt-5">
     <h3 class="mb-5">メニュー</h3>
     <Carousel
     fade

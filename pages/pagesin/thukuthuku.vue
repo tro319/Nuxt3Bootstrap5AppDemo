@@ -10,10 +10,10 @@
     <li class="m-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
     <li class="m-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
-  <div class="img">
+  <div class="img m-auto mb-5">
     <img src="../../public/thukuthuku/1.jpg" alt="TUKTUK" class="shadow-lg">
   </div>
-  <div id="imformation">
+  <div id="imformation" class="mb-5 pt-5">
     <h3>タイ料理の店 TUKTUK</h3>
     <p>上賀茂神社から、御園橋通りを西に歩いて5分くらいのところにあるお店。タイで修行を重ねたシェフが作る、カオマンガイなどの30種のタイ料理が楽しめます。</p>
     <div class="feelings">
@@ -62,7 +62,7 @@
       </b-tbody>
         </b-table>
   </div>
-  <div id="menu">
+  <div id="menu" class="mb-5 pt-5">
     <h3 class="mb-5">メニュー</h3>
     <Carousel
     fade

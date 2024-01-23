@@ -10,10 +10,10 @@
     <li class="m-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
     <li class="m-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
-  <div class="img">
+  <div class="img m-auto mb-5">
     <img src="../../public/imaishoku/1.jpg" alt="今井食堂" class="shadow-lg">
   </div>
-  <div id="imformation">
+  <div id="imformation" class="mb-5 pt-5">
     <h3>今井食堂</h3>
     <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖の味噌煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
     <div class="feelings">
@@ -61,7 +61,7 @@
         </b-table>
   </div>
 
-  <div id="menu">
+  <div id="menu" class="mb-5 pt-5">
     <h3 class="mb-5">メニュー</h3>
     <Carousel
     fade
