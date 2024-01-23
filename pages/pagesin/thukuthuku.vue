@@ -6,19 +6,19 @@
   <div class="sub-title">
     <h3>タイ人シェフが作る、本格タイ料理が楽しめる!</h3>
   </div>
-  <ul class="list">
-    <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
-    <li><NuxtLink to="#menu">メニュー</NuxtLink></li>
+  <ul class="list list-unstyled">
+    <li class="ms-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
+    <li class="ms-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
-    <img src="../../public/thukuthuku/1.jpg" alt="TUKTUK">
+    <img src="../../public/thukuthuku/1.jpg" alt="TUKTUK" class="shadow-lg">
   </div>
   <div id="imformation">
     <h3>タイ料理の店 TUKTUK</h3>
     <p>上賀茂神社から、御園橋通りを西に歩いて5分くらいのところにあるお店。タイで修行を重ねたシェフが作る、カオマンガイなどの30種のタイ料理が楽しめます。</p>
     <div class="feelings">
       <div class="sub-img">
-        <img src="../../public/thukuthuku/eat.jpg" alt="カオマンガイ">
+        <img src="../../public/thukuthuku/eat.jpg" alt="カオマンガイ" class="shadow-lg">
       </div>
       <div class="text">
         <p>店舗では、カオマンガイセット(1100円)を注文しました。カオマンガイのタレもとてもおいしく、セットでついてきた春巻きも甘辛く仕上げられていて、とてもおいしかったです。

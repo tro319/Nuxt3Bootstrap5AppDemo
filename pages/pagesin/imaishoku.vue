@@ -6,26 +6,26 @@
   <div class="sub-title">
     <h3>鯖の味噌煮が美味しい、食堂!</h3>
   </div>
-  <ul class="list">
-    <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
-    <li><NuxtLink to="#menu">メニュー</NuxtLink></li>
+  <ul class="list list-unstyled">
+    <li class="ms-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
+    <li class="ms-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
-    <img src="../../public/imaishoku/1.jpg" alt="今井食堂">
+    <img src="../../public/imaishoku/1.jpg" alt="今井食堂" class="shadow-lg">
   </div>
   <div id="imformation">
     <h3>今井食堂</h3>
     <p>上賀茂神社近くの食堂。骨もほとんど気にならず食べれる鯖の味噌煮やチキンカツなどがあり、店内での食事以外にお弁当を注文することができる食堂です。</p>
     <div class="feelings">
       <div class="sub-img">
-        <img src="../../public/imaishoku/eat.jpg" alt="おすすめ定食">
+        <img src="../../public/imaishoku/eat.jpg" alt="おすすめ定食" class="shadow-lg">
       </div>
       <div class="text">
         <p>店舗ではおすすめ定食(850円)を注文しました。鯖の味噌煮は骨を気にせず食べれて、味噌も甘すぎず辛すぎずご飯と一緒に食べてもとても良くおいしかったです。
           チキンカツやコロッケも、衣がとてもさくさくしていておいしかったです。
         </p>
         <div class="sub-img2">
-          <img src="../../public/imaishoku/2.jpg" alt="おすすめ定食">
+          <img src="../../public/imaishoku/2.jpg" alt="おすすめ定食" class="shadow-lg">
         </div>
         <p>プロ野球選手が来店されたこともあるお店で、プロ野球好きな人は一度いってみてもいいかもしれません。</p>
       </div>

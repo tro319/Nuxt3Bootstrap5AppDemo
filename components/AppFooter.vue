@@ -1,5 +1,5 @@
 <template>
-<div id="footer">
+<div id="footer" class="text-center">
     <p>&copy;kamigamo inshokutenmeguri</p>
 </div>
 </template>

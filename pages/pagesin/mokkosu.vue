@@ -6,19 +6,19 @@
   <div class="sub-title">
     <h3>北山駅でてすぐの、ラーメン屋!</h3>
   </div>
-  <ul class="list">
-    <li><NuxtLink to="#imformation">店舗情報</NuxtLink></li>
-    <li><NuxtLink to="#menu">メニュー</NuxtLink></li>
+  <ul class="list list-unstyled">
+    <li class="ms-2"><NuxtLink to="#imformation" class="text-decoration-none p-2">店舗情報</NuxtLink></li>
+    <li class="ms-2"><NuxtLink to="#menu" class="text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
   <div class="img">
-  <img src="../../public/mokkosu/1.jpg" alt="肥後もっこす">
+  <img src="../../public/mokkosu/1.jpg" alt="肥後もっこす" class="shadow-lg">
   </div>
   <div id="imformation">
     <h3>熊本ラーメン 肥後もっこす</h3>
     <p>京都市営地下鉄・北山駅4番出口をでて、北山通りを西に徒歩で2分くらい進んだところにあるラーメン店です。スープやチャーシューが美味しいお店です。</p>
     <div class="feelings">
       <div class="sub-img">
-        <img src="../../public/mokkosu/eat.jpg" alt="カオマンガイ">
+        <img src="../../public/mokkosu/eat.jpg" alt="旨辛ラーメン" class="shadow-lg">
       </div>
       <div class="text">
         <p>店舗では、うま辛ラーメン(950円)を注文しました。程いい辛さでスープも、チャーシューもトロトロで柔らかくとてもおいしかったです。</p>
