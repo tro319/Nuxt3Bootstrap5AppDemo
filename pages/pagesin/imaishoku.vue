@@ -62,7 +62,7 @@
   </div>
 
   <div id="menu" class="mb-5 pt-5">
-    <h3 class="fs-6 mb-5 ms-5">メニュー</h3>
+    <h3 class="fs-3 mb-5 ms-5">メニュー</h3>
     <Carousel
     fade
     control
