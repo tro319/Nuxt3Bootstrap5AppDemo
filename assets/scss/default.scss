@@ -1,12 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-}
 
 
 //header
@@ -40,7 +32,6 @@ img {
 
 #header h1 {
     font-weight: 700;
-    font-size: 1.5rem;
 }
 
 #header h1 a {
@@ -108,12 +99,7 @@ img {
 
 // pagesin/.vue main
 
-.contents .contents-title {
-    font-weight: 800;
-}
-
 .contents .sub-title {
-    font-weight: 600;
     display: inline-block;
     border-bottom: solid 1px #000;
 }
@@ -177,6 +163,6 @@ img {
 // menu slider
 
 .contents #menu img {
-    border-radius: 25px;
+    width: 100%;
 }
 
