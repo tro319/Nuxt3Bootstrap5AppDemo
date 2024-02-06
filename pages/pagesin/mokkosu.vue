@@ -7,8 +7,8 @@
     <h3 class="fs-3">北山駅でてすぐの、ラーメン屋!</h3>
   </div>
   <ul class="list list-unstyled ms-3 mb-3 ps-1">
-    <li class="m-2"><NuxtLink to="#imformation" class="fs-4 text-decoration-none p-2">店舗情報</NuxtLink></li>
-    <li class="m-2"><NuxtLink to="#menu" class="fs-4 text-decoration-none p-2">メニュー</NuxtLink></li>
+    <li class="m-2"><NuxtLink to="#imformation" class="text-dark fs-4 text-decoration-none p-2">店舗情報</NuxtLink></li>
+    <li class="m-2"><NuxtLink to="#menu" class="text-dark fs-4 text-decoration-none p-2">メニュー</NuxtLink></li>
   </ul>
   <div class="img m-auto mb-5">
   <img src="../../public/mokkosu/1.jpg" alt="肥後もっこす" class="mw-100 shadow-lg">

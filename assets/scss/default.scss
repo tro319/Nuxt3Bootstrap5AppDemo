@@ -16,7 +16,6 @@
 #header .navbar .navbar-nav li a {
     border-radius: 7px;
     background: linear-gradient(35deg, rgba(255, 255, 255, 0.8), rgb(0, 0, 0, 0));
-    color: #000;
 }
 
 #header .navbar .navbar-nav li a:hover {
@@ -34,10 +33,6 @@
     font-weight: 700;
 }
 
-#header h1 a {
-    color: #000;
-}
-
 #header .shop-list {
     display: flex;
     justify-content: space-between;
@@ -46,7 +41,6 @@
 
 #header .shop-list li a {
     background: linear-gradient(90deg, rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0));
-    color: #000;
     border-radius: 4px;
 }
 
@@ -119,19 +113,16 @@
 
 .contents .list li a {
     display: inline-block;
-    color: #000;
     border-radius: 5px;
 }
 
 .contents .list li a:hover {
     background-color: rgb(32, 173, 255, 0.7);
-    color: #FFF;
     transition: all 0.5s;
 }
 
 .contents .list li a:active {
     background-color: rgba(88, 88, 88, 0.7);
-    color: #FFF;
     transition: all 0.5s;
 }
 
